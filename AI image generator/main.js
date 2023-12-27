@@ -3,7 +3,7 @@ const imageGallery = document.querySelector(".image-gallery");
 const imgModal = document.querySelector(".imgModal");
 const imgsCard = document.querySelectorAll(".img-card")
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = 'OPEN_AI_KEY';
 let isImageGenerating = false;
 
 const updateImageCard = (imgDataArray) => {
