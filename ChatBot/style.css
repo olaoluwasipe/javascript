@@ -58,10 +58,20 @@ body{
     background: #724ae8;
     padding: 16px 0;
     text-align: center;
+    position: relative;
 }
 .chatbot header h2{
     color: #fff;
     font-size: 1.4rem;
+}
+.chatbot header span {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    transform: translateY(-50%);
 }
 .chatbot .chatbox {
     height: 510px;
@@ -143,5 +153,8 @@ body{
     }
     .chatbot .chatbox {
         height: 90%;
+    }
+    .chatbot header span {
+        display: block;
     }
 }
